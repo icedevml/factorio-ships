@@ -2,7 +2,7 @@ data:extend(
 {
 	{
 		type = "car",
-		name = "kuter",
+		name = "basic-ship",
 		icon = "__Ships__/graphics/icons/ship.png",
 		flags = {"pushable", "placeable-neutral", "player-creation", "placeable-off-grid"},
 		--minable = {mining_time = 1, result = "tank"},
@@ -223,12 +223,12 @@ data:extend(
 
 	{
 		type = "item",
-		name = "kuter",
+		name = "basic-ship",
 		icon = "__Ships__/graphics/icons/ship.png",
 		flags = {"goes-to-quickbar"},
 		subgroup = "transport",
 		order = "b[personal-transport]-b[car]",
-		place_result = "kuter",
+		place_result = "basic-ship",
 		stack_size = 1
 	}
 })
@@ -237,7 +237,7 @@ data:extend(
 data:extend({
 	{
 		type = "recipe",
-		name = "kuter",
+		name = "basic-ship",
 		enabled = false,
 		category = "crafting",
 		energy_required = 120,
@@ -250,6 +250,6 @@ data:extend({
 				{"steel-plate",200},
 				{"copper-plate",300}
 			},
-		result = "kuter"
+		result = "basic-ship"
 	}
 })

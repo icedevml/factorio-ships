@@ -17,7 +17,7 @@ script.on_configuration_changed(function(data)
 	
 	for k, v in pairs(game.forces) do
         if v.technologies["automobilism"].researched then
-            v.recipes["kuter"].enabled = true
+            v.recipes["basic-ship"].enabled = true
         end
     end
 end)
