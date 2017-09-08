@@ -1,5 +1,5 @@
 data:extend(
-{	
+{
 	{
 		type = "car",
 		name = "kuter",
@@ -98,7 +98,7 @@ data:extend(
 					width = 360,
 					height = 249,
 					frame_count = 1,
-					direction_count = 24,
+					direction_count = 72,
 					shift = {-0.0, -0.58125},
 					animation_speed = 8,
 					max_advance = 1,
@@ -106,26 +106,26 @@ data:extend(
 					stripes =
 					{
 						{
-						 filename = "__Ships__/graphics/entity/ship1.png",
-						 width_in_frames = 1,
+						 filename = "__Ships__/graphics/entity/shipQ1.png",
+						 width_in_frames = 3,
 						 height_in_frames = 6,
 						},
-						
+
 						{
-						 filename = "__Ships__/graphics/entity/ship2.png",
-						 width_in_frames = 1,
+						 filename = "__Ships__/graphics/entity/shipQ2.png",
+						 width_in_frames = 3,
 						 height_in_frames = 6,
 						},
-						
+
 						{
-						 filename = "__Ships__/graphics/entity/ship3.png",
-						 width_in_frames = 1,
+						 filename = "__Ships__/graphics/entity/shipQ3.png",
+						 width_in_frames = 3,
 						 height_in_frames = 6,
 						},
-						
+
 						{
-						 filename = "__Ships__/graphics/entity/ship4.png",
-						 width_in_frames = 1,
+						 filename = "__Ships__/graphics/entity/shipQ4.png",
+						 width_in_frames = 3,
 						 height_in_frames = 6,
 						}
 					}
@@ -220,7 +220,7 @@ data:extend(
 		inventory_size = 180,
 		guns = {},
 	},
-	
+
 	{
 		type = "item",
 		name = "kuter",
@@ -241,7 +241,7 @@ data:extend({
 		enabled = false,
 		category = "crafting",
 		energy_required = 120,
-		ingredients = 
+		ingredients =
 			{
 				{"engine-unit",45},
 				{"advanced-circuit",150},
